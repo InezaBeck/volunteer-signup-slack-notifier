@@ -8,6 +8,14 @@ A lightweight workflow that connects a Google Form to Slack, so a coordinator ne
 2. Google Forms automatically logs the response as a new row in a linked Google Sheet.
 3. A Google Apps Script attached to the Sheet detects the new submission and posts a formatted message to a Slack channel via an incoming webhook, so the right person is notified instantly instead of having to check the spreadsheet.
 
+## In action
+
+**The form:**
+![Form screenshot](form-screenshot.png)
+
+**The resulting Slack notification:**
+![Slack notification](slack-notification.png)
+
 ## Why
 
 Small community organizations often run signups through a plain Google Form and then lose track of new responses because nobody's watching the spreadsheet. This closes that gap with a few lines of script and no paid tools.
